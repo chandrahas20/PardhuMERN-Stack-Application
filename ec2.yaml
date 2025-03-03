@@ -2,7 +2,7 @@ Description: >
   This stack creates a EC2 instance, It also creates a CloudWatch event to
   delete the stack after a specified amount of time.
   This stack also installs Jenkins, Terraform in EC2 instance
-
+  ####
 Parameters:
   VPC:
     Description: VPC ID to use
